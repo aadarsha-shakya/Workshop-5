@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&family=Roboto:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  margin: 0px auto;
+  border: 0px solid rgb(255, 255, 255);
+  display:grid;
+  grid-template-rows:390px 390px ;
+  grid-row-gap:10px;
+}
+.twoHalfLayout {
+  display: flex;
+} 
+.grid1{
+    width: 50%;
+    margin: 0px;
+    text-align: left;
+}
+.grid2{
+  font-family:'Chivo Mono', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  place-content: center;
+  width: 60%;
+  margin: 0px;
+  background-color: rgb(56, 127, 30);
+  height: 750px;
+  gap:2rem;
+}
+.text {
+  margin-top: 280px;
+  margin-left: 40px;
+  color: azure; 
+  line-height: 50px;
+}
+img{
+    width: auto;
+    height: 750px;
+}
